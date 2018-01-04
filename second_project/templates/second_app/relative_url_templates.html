@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <title>Welcome relative_url_tempaltes!</title>
+  </head>
+  <body>
+    <h1>Welcome to relative URL tempaltes</h1>
+    <a href="{% url 'second_app:other' %}" class = "btn btn_primary">Jump to Ohter page!</a>
+    <a href="{% url 'admin:index' %}">Jump to admin page!</a>
+  </body>
+</html>
